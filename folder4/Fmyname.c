@@ -5,6 +5,7 @@ int main(){
     return 0;
 }
 
+
 void myName()
 {
     printf("My name is Kritsana");
