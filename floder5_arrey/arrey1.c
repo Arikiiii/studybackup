@@ -12,7 +12,5 @@ int main (){
         printf("numD[%d] = %.4f \n",i,numD[i]);
     for ( i = 0; i<5; i++)
         printf("str[%d] = %c \n",i,str[i]);
-    
-    
 return 0;
 }
