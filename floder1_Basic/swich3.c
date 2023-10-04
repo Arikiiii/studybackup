@@ -25,5 +25,6 @@ int main(){
     printf("--------------------------------------------");
     printf("\nTotal price : % d + %d + % d = %d Bath",p1,p2,p3,total_price);
     printf("\n--------------------------------------------");
+
     return 0;
 }
