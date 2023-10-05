@@ -13,7 +13,7 @@ int main (){
 
     printf("my name is %s ",MyName);
    for ( i = 0; i < 8; i++)
-        printf("\nMy grade of course %d : %.1f ( %c )",i+1,MyGrade[i],gradeChar(MyGrade[i]));//        0dsfgsdfgsdfgsdfg
+        printf("\nMy grade of course %d : %.1f ( %c )",i+1,MyGrade[i],gradeChar(MyGrade[i]));
 return 0;
 }
 
