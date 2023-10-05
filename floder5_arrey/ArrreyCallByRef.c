@@ -20,13 +20,13 @@ return 0;
 void gradeCharArrFunc (float gradeFloatArr[8],char gradeCharArr[8]){
     int n;
 	for (n = 0 ;n<8;n++){
-		if(gradeFloatArr[n]>=80){
+		if(gradeFloatArr[n]==4){
 			gradeCharArr[n] = 'A';
-		}else if(gradeFloatArr[n]>=70 && gradeFloatArr[n]<80){
+		}else if(gradeFloatArr[n]==3.5 || gradeFloatArr[n]==3){
 			gradeCharArr[n] ='B';
-		}else if(gradeFloatArr[n]>=60 && gradeFloatArr[n]<70){
+		}else if(gradeFloatArr[n]==2.5 || gradeFloatArr[n]==2){
 			gradeCharArr[n] ='C';
-		}else if(gradeFloatArr[n]>=50 && gradeFloatArr[n]<60){
+		}else if(gradeFloatArr[n]==1.5 || gradeFloatArr[n]==1){
 			gradeCharArr[n] ='D';
 		}else
 			gradeCharArr[n] ='F';
