@@ -2,6 +2,7 @@
 int main (){
     char name[5][100];
     int age_weight_height [5][3],raw1,raw2;
+    
     for ( raw1 = 0; raw1 < 5; raw1++){
         printf ("Enter your Name,Age,Weight,Height [%d]  : ",raw1+1); 
         scanf("%s %d %d %d",&name[raw1],&age_weight_height[raw1][0],

@@ -17,6 +17,7 @@ int main (){
 return 0;
 }
 
+//function
 char gradeChar(float gradeFloat) {
     if (gradeFloat == 4) {
         return 'A';
