@@ -1,13 +1,14 @@
 #include <stdio.h>
 int main(){
- 	int i,j,star,row;
-    printf("Enter Row : "); scanf("%d",&star);
- 	for (i=1;i<=star;i++){
-    		for(j=star;j>i;j--)
-                printf(" ");
-            for(row=1;row<=i;row++)
-                printf("*");
-    printf ("\n");
- 	} 
- 	return 0;
+   int round;
+   printf("enter round");scanf("%d",&round);
+   for(int i=0 ; i<=round;i++){
+      for(int j=round;j>i;j--)
+      printf(" ");
+      for(int star=0;star<=i;star++)
+      printf("*");
+
+   printf("\n");
+   }
+return 0;
 }

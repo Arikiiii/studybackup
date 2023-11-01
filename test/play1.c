@@ -2,8 +2,10 @@
 int main(){
     int price1=40,price2=80,price3=10,total_price,i,p[3];
     char menu[3];
-    printf("\tMenu\n");printf("1) Papaya Salad\t\tprice %d bath\n",price1);
-    printf("2) Grilled Chicken\tprice %d bath\n",price2);printf("3) Sticky Rice\t\tprice %d bath\n",price3);
+    printf("\tMenu\n");
+    printf("1) Papaya Salad\t\tprice %d bath\n",price1);
+    printf("2) Grilled Chicken\tprice %d bath\n",price2);
+    printf("3) Sticky Rice\t\tprice %d bath\n",price3);
     for ( i= 0; i < 3; i++ ){
             printf("\nEnter Menu Number [%d]  :",i+1);
             scanf("%s",&menu[i]);
@@ -21,5 +23,8 @@ int main(){
     printf("\nTotal price : % d + %d + % d = %d Bath",p[0],p[1],p[2],total_price);
     printf("\n--------------------------------------------");
 return 0;
+}
+int Func_ (int x,int y ){
+    
 }
    
