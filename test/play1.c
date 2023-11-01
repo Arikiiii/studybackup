@@ -18,13 +18,14 @@ int main(){
         default: printf("Incorrect order\n");p[i]=0;
         }
     }
-    total_price=p[0]+p[1]+p[2];
+    total_price=p[0]+p[1]+p[2]
     printf("--------------------------------------------");
     printf("\nTotal price : % d + %d + % d = %d Bath",p[0],p[1],p[2],total_price);
     printf("\n--------------------------------------------");
 return 0;
 }
-int Func_ (int x,int y ){
+
+int Func_ (int x ){
     
 }
    
